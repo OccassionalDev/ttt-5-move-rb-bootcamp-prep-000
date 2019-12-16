@@ -6,7 +6,7 @@ require_relative '../lib/move.rb'
 #Greet player and create a new clear board
 puts ("Welcome to Tic Tac Toe!")
 
-board[9] = {" ", " ", " ", " ", " ", " ", " ", " ", " "}
+board = {" ", " ", " ", " ", " ", " ", " ", " ", " "}
 
 #Ask the player where to go and recieve input
 puts ("Where would you like to go?")
